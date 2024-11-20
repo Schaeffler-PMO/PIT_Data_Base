@@ -1,0 +1,5 @@
+# To install packages in python
+pip install <package-name> --proxy sfl-hza-prx-02.schaeffler.com
+
+# To install packages in requirement.txt
+pip install -r requirements.txt

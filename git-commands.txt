@@ -1,0 +1,71 @@
+# Cloning a Repository
+# To clone the repository from GitHub: This command will create a local copy of the repository in a directory named PIT_Data_Base.
+git clone https://github.com/Schaeffler-PMO/PIT_Data_Base.git
+
+
+# Checking Current Branch
+# To check the current branch you are on: 
+git branch
+
+
+# Listing All Branches
+# To list all branches, both local and remote:
+git branch -a
+
+
+# Checking Out a Branch
+# To checkout (switch to) an existing branch:
+git checkout branch-name
+
+
+# Cheakout and create new branch
+# To create a new branch and switch to it in one command:
+git checkout -b new-branch-name
+
+
+# Adding Files
+# To add all changes in the directory to the staging area:
+git add .
+
+# To add a specific file:
+git add path/to/your/file.txt
+
+
+# Committing Changes
+# To commit the staged changes with a message:
+git commit -m "Your commit message here"
+
+# Checking the Status
+# To check the status of your working directory and staging area:
+git status
+
+
+# Pushing Changes to Remote Repository
+# To push your changes to the remote repository on a specific branch:
+git push origin branch-name
+
+
+# Pulling Changes from Remote Repository
+To pull the latest changes from the remote repository and merge them with your current branch:
+git pull origin branch-name
+
+
+# Fetching Changes from Remote Repository
+# To fetch updates from the remote repository without merging:
+git fetch
+
+
+# Merging Changes
+# To merge changes from another branch (e.g., merging feature-branch into your current branch):
+git merge feature-branch
+
+
+# Deleting a Branch
+# To delete a local branch:
+git branch -d branch-name
+
+# To force delete a branch:
+git branch -D branch-name
+
+# Viewing Commit History
+git log
